@@ -100,6 +100,7 @@ img:hover {
 
 /* Fixed footer */
 .footer {
+    
     position: fixed;
     bottom: 0px;
     left: 0;
