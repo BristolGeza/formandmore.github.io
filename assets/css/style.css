@@ -1,0 +1,99 @@
+
+/* Center the body content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the header */
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Style for the h1 */
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Style for the image container */
+#image-container {
+    text-align: center;
+}
+
+
+
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"]{
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+img {
+    width: 100%; /* Image occupies 100% of the container width */
+    border-radius: 10%; /* Rounds corners by 10% */
+    border: 2px solid #333; /* Adds a thin border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+}
+
+/* Add a hover effect */
+img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+
+    .rounded-img {
+        margin-top: 20px;
+        border-radius: 10%;
+        width: 30%;
+        height: auto;
+        max-width: 100%;
+}
