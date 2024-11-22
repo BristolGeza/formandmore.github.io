@@ -54,12 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log(typeof randomIndex);
         if (randomIndex == numiu) {
             console.log('same');
-            message.innerText = `Hello: ${formData["first-name"].value}. Email address: ${formData.email.value}. Your answer is perfect`;
+            message.innerText = `Hello ${formData["first-name"].value}. Email address: ${formData.email.value}. Your answer is perfect`;
         }
 
         
         else {
-            message.innerText = `Hello: ${formData["first-name"].value}. Email address: ${formData.email.value}.Answer: Your answer is wrong, try again`;
+            message.innerText = `Hello ${formData["first-name"].value}. Email address: ${formData.email.value}. Your answer is wrong, try again`;
         
         }
     }
