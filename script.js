@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (randomIndex == numiu) {
             console.log('same');
             message.innerText = `Hello ${formData["first-name"].value}. Email address: ${formData.email.value}. Your answer is perfect`;
+            return window.location.assign('index.html')
         }
 
         
