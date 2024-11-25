@@ -1,4 +1,6 @@
-# User Story
+#Easy Quiz
+
+## User Story
 
 As a user, I want to enter my name and email address before starting the game so that my details can be displayed with my results.
 
@@ -26,7 +28,7 @@ As a user, I want to be able to restart the game or end it at any time so that I
 
 
 
-# Easy Quiz
+
 
 This project is a simple web-based quiz application that displays a random image and asks the user to identify it from a list of options. The user submits their answer through a form, and the application provides feedback on whether the answer is correct or not.
 
