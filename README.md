@@ -1,4 +1,4 @@
-# User Information Entry
+# User Story
 
 As a user, I want to enter my name and email address before starting the game so that my details can be displayed with my results.
 
