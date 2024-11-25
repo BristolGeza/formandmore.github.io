@@ -1,3 +1,31 @@
+# User Information Entry
+
+As a user, I want to enter my name and email address before starting the game so that my details can be displayed with my results.
+
+Image Display
+
+As a user, I want to see a randomly generated image displayed on the screen so that I can recognize and identify it.
+
+Answer Submission
+
+As a user, I want to select the correct answer from a list of options so that I can test my recognition skills.
+
+As a user, I want to submit my answer and see immediate feedback on whether it was correct or not.
+
+Feedback and Results
+
+As a user, I want to see a message indicating whether my answer was correct or incorrect so that I know how well I recognized the image.
+
+As a user, I want to see my name and email address displayed along with the feedback so that I can verify my details.
+
+Game Progression
+
+As a user, I want to see a new random image after each answer submission so that I can continue playing and improving my recognition skills.
+
+As a user, I want to be able to restart the game or end it at any time so that I have control over my participation.
+
+
+
 # Easy Quiz
 
 This project is a simple web-based quiz application that displays a random image and asks the user to identify it from a list of options. The user submits their answer through a form, and the application provides feedback on whether the answer is correct or not.
