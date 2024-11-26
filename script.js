@@ -30,7 +30,10 @@ function displayRandomImage() {
 window.onload = displayRandomImage;
 
 
-
+// reload this site function
+function reloadPage() {
+    window.location.reload();
+  }
 
 
 // FORM
